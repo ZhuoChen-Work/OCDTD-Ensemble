@@ -45,3 +45,4 @@ def find_nu(train_inlier, test_inlier, test_outlier,best_gamma):
       if auc>best_auc:
         best_auc = auc
         best_nu = nu
+  return best_nu
