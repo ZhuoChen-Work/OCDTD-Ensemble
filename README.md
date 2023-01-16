@@ -26,12 +26,12 @@ In this experiment normal digits are chosen as inliers, digits with corruption a
 
 # MedMNIST experiments 
 
-PathMNIST: choose "label 7" as inlier, "label 6" as outlier
+PathMNIST: choose "label 7" as inlier, "label 6" as outlier. The following figure shows the heatmap of 8 samples from testset. Top 4 are inliers, bottom 4 are outliers. 
 
 ![medMNIST1](https://user-images.githubusercontent.com/118645613/212564368-b87e20c7-4494-4dfd-a2d6-ab201a1cf3fc.png)
 
 
-PneumoniaMNIST: choose "label 0" as inlier, "label 1" as outlier
+PneumoniaMNIST: choose "label 0" as inlier, "label 1" as outlier. The following figure shows the heatmap of 8 samples from testset. Top 4 are inliers, bottom 4 are outliers. 
 
 ![med_MNIST](https://user-images.githubusercontent.com/118645613/212557686-739803e1-10dd-4d92-b36c-4f3ebe02b065.png)
 
