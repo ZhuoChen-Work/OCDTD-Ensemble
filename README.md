@@ -5,7 +5,10 @@ the decision outcome of the One-Class SVM models. In this work we extend the OC-
 We compare the performance of the "bagging" and the "local Times" models.
 Let C1 and C2 be two basic OC-SVM classifiers; Cx + Cy, x, y ∈ {1, 2} denotes the model
 fused in the "bagging" method (Cx+Cx is identical to Cx); Cx × Cy, x, y ∈ {1, 2} denotes the model fused in the
-"local Times" method.
+"local Times" method. The following figure shows the numbers of support vectors of different classifiers.
+
+![demo2](https://user-images.githubusercontent.com/118645613/212612749-f5dcc24d-9a61-4120-913b-ee27dfbb85f4.png)
+
 
 The heatmap(https://www.sciencedirect.com/science/article/pii/S0031320316303582) is used to evaluate the explanation for the novelty. The "higher temperature area"  indicates this area is more likely to be classified as novelty.
 
@@ -34,8 +37,12 @@ PneumoniaMNIST: choose "label 0" as inlier, "label 1" as outlier
 
 
 # MvTec experiments
-In this experiment normal tile are inliers, crack tiles are outliers. MvTec offers the ground truth area of novelty, so we can use the cosin 
+In this experiment normal images are inliers, images with defects are outliers. MvTec offers the ground truth area of novelty, so we can use the cosin 
 similarity (CS score) to evaluate the explanation of novelty, the higher the better.
 
 ![tile_crack](https://user-images.githubusercontent.com/118645613/212557115-01c8301c-afde-495a-b58c-9508115da1ee.png)
+
+![leather_fold](https://user-images.githubusercontent.com/118645613/212612530-f72f53e9-b1d6-4020-9c5e-388830407e67.png)
+
+![wood_hole](https://user-images.githubusercontent.com/118645613/212612599-9d9224cd-6f52-417c-a45d-dd5911f8b933.png)
 
